@@ -3,133 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Responsive Layout</title>
-<style>
+<title>Assignment Solution for Module 2</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
-
-#box1 {
-	background-color: green;
-	border: 2px solid black;
-	position: relative;
-	width: 100px;
-	height: 100px;
-	margin-bottom: 50px;
-
-}
-#cont1 {
-	background-color: orange;
-	width: 100px;
-	height: 100px;	
-}
-#box2 {
-	background-color: blue;
-	border: 2px solid black;
-	width: 100px;
-	height: 100px;
-	margin-bottom: 50px;
-}
-#cont2 {
-	background-color: purple;
-	width: 100px;
-	height: 100px;	
-}
-#box3 {
-	background-color: blue;
-	border: 2px solid black;
-	width: 100px;
-	height: 100px;
-	margin-bottom: 50px;
-}
-#cont3 {
-	background-color: yellow;
-	width: 100px;
-	height: 100px;	
-}
-h1 {
-  margin-bottom: 15px;
-  text-align-last: center;
-}
-
-p {
-  border: 1px solid black;
-  background-color: #C0C0C0;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: black;
-  float : right;
-}
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4,{
-    float: left;
-    border: 1px solid green;
-  }
-  .col-lg-1 {
-    width: 25%;
-  }
-  .col-lg-2 {
-    width: 50%;
-  }
-  .col-lg-3 {
-    width: 75%;
-  }
-  .col-lg-4 {
-    width: 100%;
-  
-}
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-md-1 {
-    width: 25%;
-  }
-  .col-md-2 {
-    width: 50%;
-  }
-  .col-md-3 {
-    width: 75%;
-  }
-  .col-md-4 {
-    width: 100%;
-  }  
-}
-
-</style>
 </head>
 <body>
 <h1>Our Menu</h1>
 
 <div class="row">
-  <div class="col-lg-4 col-md-6"><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non diam ornare tortor dapibus commodo vel ut augue. Duis diam est, ornare vel ullamcorper at, iaculis vitae justo. Mauris aliquet purus sed risus vehicula accumsan. Nam placerat sodales arcu, eu laoreet orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in urna eget justo pretium ornare non eget enim. Curabitur malesuada rutrum vulputate. </p>
-  	<div id="box1">
-  		<div id="cont1">Chicken</div>
-  	</div>
+  <div class="col-lg-4 col-md-6"><div id="box1"> Chicken </div><p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non diam ornare tortor dapibus commodo vel ut augue. Duis diam est, ornare vel ullamcorper at, iaculis vitae justo. Mauris aliquet purus sed risus vehicula accumsan. </p>
   </div>
-  <div class="col-lg-4 col-md-6"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non diam ornare tortor dapibus commodo vel ut augue. Duis diam est, ornare vel ullamcorper at, iaculis vitae justo. Mauris aliquet purus sed risus vehicula accumsan. Nam placerat sodales arcu, eu laoreet orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in urna eget justo pretium ornare non eget enim. Curabitur malesuada rutrum vulputate.</p></div>
-    <div id="box2">
-  		<div id="cont2">Beef</div>
-  	</div>
-  <div class="col-lg-4 col-md-6"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non diam ornare tortor dapibus commodo vel ut augue. Duis diam est, ornare vel ullamcorper at, iaculis vitae justo. Mauris aliquet purus sed risus vehicula accumsan. Nam placerat sodales arcu, eu laoreet orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in urna eget justo pretium ornare non eget enim. Curabitur malesuada rutrum vulputate.</p></div>
-    <div id="box3">
-  		<div id="cont3">Sushi</div>
-  	</div>
+  <div class="col-lg-4 col-md-6"><div id="box2" id="con"> Beef </div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non diam ornare tortor dapibus commodo vel ut augue. Duis diam est, ornare vel ullamcorper at, iaculis vitae justo. Mauris aliquet purus sed risus vehicula accumsan. Nam placerat sodales arcu, eu laoreet orci. </p></div>
+  </div>
+  <div class="col-lg-4 col-md-6"><div id="box3"> Suchi </div><p id="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non diam ornare tortor dapibus commodo vel ut augue. Duis diam est, ornare vel ullamcorper at, iaculis vitae justo. Mauris aliquet purus sed risus vehicula accumsan. Nam placerat sodales arcu, eu laoreet orci. </p></div>
 </div>
 </body>
 </html>
