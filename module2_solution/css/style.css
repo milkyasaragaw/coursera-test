@@ -1,127 +1,251 @@
 * {
 
+ 
+
   box-sizing: border-box;
+
 }
+
+ 
+
+ 
 
  
 
 #box1 {
+
   background-color: pink;
+
   position: relative;
+
     top:32px;
+
     left:0px;
+
   color: black;
+
   border: 1px solid black;
+
   position: right;
+
   width: 130px;
+
   height: 30px;
+
   margin-right: auto;
+
   margin-left:auto;
+
   font-weight: bolder;
+
   text-align-last: right;
+
   font-size: 25px;
+
   float:right;
+
   border-top:0px;
+
   margin-top: 15px;
+
 }
+
+ 
+
+ 
 
  
 
 #box2 {
+
   background-color: blue;
+
   position:relative;
+
      top:32px;
+
      left:0px
+
   color:white;
+
   border: 1px solid black;
+
   width: 130px;
+
   height: 30px;
+
   margin-right:auto;
+
   margin-left:auto;
+
   margin-top:15px;
+
   font-weight: bolder;
+
   text-align-last: right;
+
   font-size: 25px;
+
   float:right;
+
   border-top:0px
+
 }
+
+ 
 
 #box3 {
+
   background-color: yellow;
+
   position: relative;
+
     top:32px;
+
     left:0px;
+
   border: 1px solid black;
+
   width: 130px;
+
   height: 30px;
+
   margin-left:auto;
+
   margin-right:auto;
+
   margin-top:15px;
+
   font-weight: bolder;
+
   text-align-last: right;
+
   font-size: 25px;
+
   float:right;
+
   border-top:0px
-} 
+
+}
+
+ 
 
 h1 {
+
   margin-bottom: 40px;
+
   text-align-last: center;
+
 }
+
+ 
+
+ 
 
  
 
 p {
+
   border: 1px solid black;
+
   flex-wrap: wrap;
+
   background-color: #C0C0C0;
+
   width: 95%;
+
   height: 200px;
+
   margin-top: 0px;
+
   font-family: Helvetica;
+
   color: black;
+
   float:right;
+
   align-content: justify:
+
   top:30px;
+
   padding-top: 40px;
+
   padding-right: 20px;
+
   padding-left: 20px;
+
 }
 
  
 
+ 
+
+ 
+
 .row {
+
   width: 100%;
+
 }
+
+ 
+
+ 
 
  
 
 /********** Large devices only **********/
 
+ 
+
 @media (min-width: 992px) {
+
+ 
 
   .col-lg-4 {
 
+ 
+
     float: left;
+
     width: 33.33%;
+
   }
+
 }
+
+ 
+
+ 
 
  
 
 /********** Medium devices only **********/
 
+ 
+
 @media (min-width: 768px) and (max-width: 991px) {
 
+ 
+
   .col-md-6, .col-md-12 {
+
     float: left;
+
   }
+
   .col-md-6 {
+
     width: 50%;
+
   }
+
   .col-md-12 {
+
     width: 100%;
+
   }
+
+ 
 
 }
-
