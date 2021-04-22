@@ -1,7 +1,13 @@
 * {
   box-sizing: border-box;
 }
- 
+
+#body {
+
+  padding-left: 45px;
+  padding-right: 45px;
+
+}
 #header-nav {
   background-color: #C0C0C0;
   border-radius: 0;
@@ -9,25 +15,34 @@
   border: 1px solid black;
   padding-right: 0;
   padding-left: 0;
+  text-align-last: left;
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 40px;
+  padding-bottom: 120px;
 }
 
-.navbar-brand h1{
-  text-align-last: left;
+/*.navbar-brand h1{
   color:black;
   font-weight: bold;
   font-family: Helvetica;
-  margin-bottom: 0;
-  margin-top: 0;
-  line-height: .75;
-  font-size: 1.5em
+  margin-bottom: 0;*/
+
+
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+}
+
+h1 {
+
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 50px;
+  text-align: left;
+  color: black;
 }
 
 h2 {  
@@ -88,7 +103,7 @@ p {
   border: 1px solid black;
   flex-wrap: wrap;
   background-color: #C0C0C0;
-  height: 300px;
+  height: 600px;
   margin-left: 100px
   margin-right: 100px;
   font-family: Helvetica;
@@ -96,6 +111,7 @@ p {
   float:right;
   align-content: justify:
      top:30px;
+  font-size: 20px;
   padding-top: 40px;
   padding-right: 20px;
   padding-left: 20px;
