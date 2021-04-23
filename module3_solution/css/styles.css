@@ -20,6 +20,16 @@
   text-align-last: left;
 }
 
+ #collapsable-nav a { /* Collapsed nav menu text */
+  background-color: #3f7334;
+  font-family: Helvetica;
+  color: black;
+  text-align-last:center;
+  font-size: 2em;
+  font-weight: bold;
+  
+}
+
 .navbar-brand {
   padding-top: 40px;
   padding-bottom: 120px;
@@ -59,6 +69,7 @@ h1 {
 h2 {  
   font-weight: bold;
   font-family: Helvetica;
+  font-size: 3em;
 
 }
 
