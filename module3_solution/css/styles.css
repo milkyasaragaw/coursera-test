@@ -14,19 +14,20 @@
   background-color: #C0C0C0;
   border-radius: 0;
   border: 0;
-  border: 1px solid black;
   padding-right: 0;
   padding-left: 0;
   text-align-last: left;
 }
 
- #collapsable-nav a { /* Collapsed nav menu text */
+ #collapsable-nav a { 
   background-color: #3f7334;
+  border: 1px solid black;
   font-family: Helvetica;
   color: black;
   text-align-last:center;
   font-size: 2em;
   font-weight: bold;
+  border: 1px solid black;
   
 }
 
